@@ -54,7 +54,7 @@ that will help you pass these tests:
 
 ### Migration
 
-- Run `mkdir db` and then `mkdir db/migrate` to create the `migrate` folder
+<!-- - Run `mkdir db` and then `mkdir db/migrate` to create the `migrate` folder
   within `db`. Then create a file in the `db/migrate` folder called
   `001_create_shows.rb`. In this file, write the migration code to create a
   `shows` table. The table should have `name`, `network`, `day`, and `rating`
@@ -63,12 +63,12 @@ that will help you pass these tests:
 
 - Create an `app` folder with a `models` folder within it, and then create a
   file, `show.rb`, in `app/models`. In this file, you will define a `Show` class
-  that inherits from `ActiveRecord::Base`.
-
+  that inherits from `ActiveRecord::Base`. -->
+<!-- 
 - Now we need to create a second migration to add another column to our `shows`
   table. In the `db/migrate` folder, create another file,
   `002_add_season_to_shows.rb`, and write a migration to add a column, `season`,
-  to the `shows` table. The datatype of this column is string.
+  to the `shows` table. The datatype of this column is string. -->
 
 **Note**: This lab is using ActiveRecord 5.2. You will need to specify this
 version in your migrations by having your classes inherit from
