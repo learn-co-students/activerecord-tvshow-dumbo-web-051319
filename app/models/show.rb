@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   
   def self.most_popular_show
     self.where("rating = ?", self.highest_rating).first
-    binding.pry
+    # Check out 2.2 Array Conditions: https://guides.rubyonrails.org/v5.2/active_record_querying.html
   end
 
   def lowest_rating 
