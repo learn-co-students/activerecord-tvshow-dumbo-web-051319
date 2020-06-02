@@ -23,7 +23,8 @@ class Show < ActiveRecord::Base
   
   def self.popular_shows
     top_hits = []
-    self.where("rating > 5")
+    shows = self.where("rating > 5")
+    top_hits < shows
   end
   
 end
