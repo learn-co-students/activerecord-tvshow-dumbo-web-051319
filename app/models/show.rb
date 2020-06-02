@@ -22,6 +22,7 @@ class Show < ActiveRecord::Base
   end
   
   def self.popular_shows
+    top_hits = []
     
   end
   
