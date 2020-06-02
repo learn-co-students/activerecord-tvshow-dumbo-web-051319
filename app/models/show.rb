@@ -23,7 +23,8 @@ class Show < ActiveRecord::Base
   
   def self.popular_shows
     top_hits = []
-    self.where("rating")
+    self.where("rating where
+    ")
   end
   
 end
