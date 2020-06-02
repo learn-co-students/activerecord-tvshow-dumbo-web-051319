@@ -25,4 +25,6 @@ class Show < ActiveRecord::Base
     shows = self.where("rating >= ?", 5)
   end
   
+  def 
+  
 end
