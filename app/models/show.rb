@@ -9,7 +9,7 @@ class Show < ActiveRecord::Base
     # Check out 2.2 Array Conditions: https://guides.rubyonrails.org/v5.2/active_record_querying.html
   end
 
-  def lowest_rating 
+  def self.lowest_rating 
     self.minimum(:rating)  
   end
   
